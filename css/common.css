@@ -1,0 +1,32 @@
+/* Put this into reset.css */
+
+html, body {
+  margin: 0;
+}
+
+body, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.row {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical-center {
+    align-items: center;
+}
+
+.horizontal-center {
+    justify-content: center;
+}
+
+.bg-gray {
+    background-color: #f8f8f8;
+}
